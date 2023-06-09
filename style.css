@@ -127,12 +127,11 @@ h4{
     border-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
     border-image-slice: 1;
     border-radius: 5px;
-    -webkit-mask: 
+    /* -webkit-mask: 
      linear-gradient(var(--card-background) 0 0) content-box,
      linear-gradient(var(--card-background) 0 0);
   -webkit-mask-composite: xor;
-          mask-composite: exclude; 
-   
+          mask-composite: exclude;    */
 }
 .four{
     border-top: 3px solid hsl(348, 97%, 39%)
